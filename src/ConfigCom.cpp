@@ -40,7 +40,7 @@ boolean ConfigCom::leeconfig(){
 			//json.printTo(Serial);
 			
 			if (json.success()) {
-				Serial.print("Configuracion del fichero leida: ");
+				Serial.print("Configuracion de Comunicaciones leida: ");
 				json.printTo(Serial);
 			    Serial.println("");
 				// Leer los valores del MQTT
